@@ -108,7 +108,7 @@ public class SimpleAI : MonoBehaviour {
         }
         else
         {
-            Debug.Log("Found Player");
+            //Debug.Log("Found Player");
         }
 
         foreach (GameObject player in players)
