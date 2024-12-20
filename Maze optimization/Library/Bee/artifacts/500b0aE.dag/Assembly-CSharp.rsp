@@ -384,7 +384,7 @@
 -analyzer:"F:/Programs/Unity/6000.0.30f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"F:/Programs/Unity/6000.0.30f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"F:/Programs/Unity/6000.0.30f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
-"Assets/UnityEduTeam/Assets/_Scripts/EnemyManager.cs"
+"Assets/MazeEnd.cs"
 "Assets/UnityEduTeam/Assets/_Scripts/MazeSpawner.cs"
 "Assets/UnityEduTeam/Assets/_Scripts/MoveToClickPoint.cs"
 "Assets/UnityEduTeam/Assets/_Scripts/SimpleAI.cs"

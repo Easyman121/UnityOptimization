@@ -15,7 +15,7 @@ C:/Users/User/Desktop/UnityOptimization/Maze optimization
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54793
+65283
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,18 +59,18 @@ C:/Users/User/Desktop/UnityOptimization/Maze optimization
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23072]  Target information:
+Player connection [10916]  Target information:
 
-Player connection [23072]  * "[IP] 192.168.0.55 [Port] 0 [Flags] 2 [Guid] 1275608331 [EditorId] 1275608331 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [10916]  * "[IP] 192.168.0.55 [Port] 0 [Flags] 2 [Guid] 177869221 [EditorId] 177869221 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [23072]  * "[IP] 192.168.211.1 [Port] 0 [Flags] 2 [Guid] 1275608331 [EditorId] 1275608331 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [10916]  * "[IP] 192.168.211.1 [Port] 0 [Flags] 2 [Guid] 177869221 [EditorId] 177869221 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [23072]  * "[IP] 192.168.227.1 [Port] 0 [Flags] 2 [Guid] 1275608331 [EditorId] 1275608331 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [10916]  * "[IP] 192.168.227.1 [Port] 0 [Flags] 2 [Guid] 177869221 [EditorId] 177869221 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [23072]  * "[IP] 172.28.188.130 [Port] 0 [Flags] 2 [Guid] 1275608331 [EditorId] 1275608331 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [10916]  * "[IP] 172.28.188.130 [Port] 0 [Flags] 2 [Guid] 177869221 [EditorId] 177869221 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [23072] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [23072] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10916] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10916] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -81,7 +81,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.30f1 (62b05ba0686a)
 [Subsystems] Discovering subsystems at path F:/Programs/Unity/6000.0.30f1/Editor/Data/Resources/UnitySubsystems
@@ -105,43 +105,43 @@ Register platform support module: F:/Programs/Unity/6000.0.30f1/Editor/Data/Play
 Register platform support module: F:/Programs/Unity/6000.0.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: F:/Programs/Unity/6000.0.30f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
 Register platform support module: F:/Programs/Unity/6000.0.30f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.005406 seconds.
-- Loaded All Assemblies, in  0.343 seconds
+Registered in 0.004315 seconds.
+- Loaded All Assemblies, in  0.342 seconds
 Native extension for LinuxStandalone target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.307 seconds
-Domain Reload Profiling: 650ms
-	BeginReloadAssembly (108ms)
+- Finished resetting the current domain, in  0.300 seconds
+Domain Reload Profiling: 642ms
+	BeginReloadAssembly (110ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (46ms)
+	initialDomainReloadingComplete (43ms)
 	LoadAllAssembliesAndSetupDomain (145ms)
-		LoadAssemblies (108ms)
+		LoadAssemblies (110ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (142ms)
+		AnalyzeDomain (141ms)
 			TypeCache.Refresh (140ms)
-				TypeCache.ScanAssembly (129ms)
+				TypeCache.ScanAssembly (128ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (307ms)
+	FinalizeReload (301ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (273ms)
+		SetupLoadedEditorAssemblies (270ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (47ms)
+			InitializePlatformSupportModulesInManaged (49ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (46ms)
-			ProcessInitializeOnLoadAttributes (124ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (117ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -150,374 +150,406 @@ Domain Reload Profiling: 650ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.433 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Symbol file data-000002387F2C6030 doesn't match image C:\Users\User\Desktop\UnityOptimization\Maze optimization\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.450 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.443 seconds
-Domain Reload Profiling: 875ms
-	BeginReloadAssembly (147ms)
+- Finished resetting the current domain, in  0.482 seconds
+Domain Reload Profiling: 931ms
+	BeginReloadAssembly (146ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (213ms)
-		LoadAssemblies (219ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (225ms)
+		LoadAssemblies (216ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (83ms)
-			TypeCache.Refresh (64ms)
-				TypeCache.ScanAssembly (56ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (76ms)
+				TypeCache.ScanAssembly (66ms)
 			BuildScriptInfoCaches (14ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (444ms)
+	FinalizeReload (482ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (353ms)
+		SetupLoadedEditorAssemblies (384ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (56ms)
-			ProcessInitializeOnLoadAttributes (266ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (289ms)
 			ProcessInitializeOnLoadMethodAttributes (22ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1700 unused Assets / (0.6 MB). Loaded Objects now: 2206.
-Memory consumption went from 69.7 MB to 69.1 MB.
-Total: 4.586800 ms (FindLiveObjects: 0.162200 ms CreateObjectMapping: 0.073400 ms MarkObjects: 3.716700 ms  DeleteObjects: 0.631900 ms)
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1601 unused Assets / (0.5 MB). Loaded Objects now: 2105.
+Memory consumption went from 68.8 MB to 68.3 MB.
+Total: 4.141400 ms (FindLiveObjects: 0.174000 ms CreateObjectMapping: 0.072900 ms MarkObjects: 3.458100 ms  DeleteObjects: 0.434300 ms)
 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.382 seconds
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.776 seconds
-Domain Reload Profiling: 1158ms
-	BeginReloadAssembly (152ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (172ms)
-		LoadAssemblies (202ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (55ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (48ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (776ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (612ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (110ms)
-			ProcessInitializeOnLoadAttributes (470ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1698 unused Assets / (375.9 KB). Loaded Objects now: 2206.
-Memory consumption went from 68.3 MB to 68.0 MB.
-Total: 4.209000 ms (FindLiveObjects: 0.173400 ms CreateObjectMapping: 0.083000 ms MarkObjects: 3.583400 ms  DeleteObjects: 0.368200 ms)
+Received Import Request.
+  Time since last request: 16828.596622 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-5_comp_dir.png
+  artifactKey: Guid(43e545a84254b60429eb71e07830035b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-5_comp_dir.png using Guid(43e545a84254b60429eb71e07830035b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6862e503958bbed5104ec19bb744ca09') in 0.0803974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.386 seconds
-Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.690 seconds
-Domain Reload Profiling: 1077ms
-	BeginReloadAssembly (151ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (177ms)
-		LoadAssemblies (207ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (56ms)
-			TypeCache.Refresh (3ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (48ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (690ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (515ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (107ms)
-			ProcessInitializeOnLoadAttributes (371ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1698 unused Assets / (0.5 MB). Loaded Objects now: 2206.
-Memory consumption went from 68.3 MB to 67.8 MB.
-Total: 4.908900 ms (FindLiveObjects: 0.172400 ms CreateObjectMapping: 0.081200 ms MarkObjects: 4.121900 ms  DeleteObjects: 0.532400 ms)
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UnityEduTeam/Assets/Models/Guard.fbx
+  artifactKey: Guid(c7b68b4319c8eb841972625ac9d251a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Models/Guard.fbx using Guid(c7b68b4319c8eb841972625ac9d251a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14763de209e9098a429ba05dde06f76c') in 0.1060177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 155
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.373 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.495 seconds
-Domain Reload Profiling: 868ms
-	BeginReloadAssembly (142ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (172ms)
-		LoadAssemblies (196ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (55ms)
-			TypeCache.Refresh (3ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (48ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (495ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (395ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (305ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1698 unused Assets / (0.5 MB). Loaded Objects now: 2206.
-Memory consumption went from 68.3 MB to 67.8 MB.
-Total: 5.641100 ms (FindLiveObjects: 0.208600 ms CreateObjectMapping: 0.175800 ms MarkObjects: 4.510600 ms  DeleteObjects: 0.745100 ms)
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-2_comp_dir.png
+  artifactKey: Guid(c7cca07a6da838f479b9c3c06050c6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-2_comp_dir.png using Guid(c7cca07a6da838f479b9c3c06050c6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d572f6905e589cdb4d6705f0299804f') in 0.0162286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.384 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.407 seconds
-Domain Reload Profiling: 792ms
-	BeginReloadAssembly (150ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (177ms)
-		LoadAssemblies (207ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (58ms)
-			TypeCache.Refresh (3ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (51ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (408ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (322ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (243ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1698 unused Assets / (378.0 KB). Loaded Objects now: 2206.
-Memory consumption went from 70.3 MB to 69.9 MB.
-Total: 3.788600 ms (FindLiveObjects: 0.155000 ms CreateObjectMapping: 0.069300 ms MarkObjects: 3.198300 ms  DeleteObjects: 0.365100 ms)
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-13_comp_dir.png
+  artifactKey: Guid(eb0344ecc9b7ba54fbe3451336f7aa16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-13_comp_dir.png using Guid(eb0344ecc9b7ba54fbe3451336f7aa16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0235cba84a1c202547f442caa6a0ecd') in 0.0146996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.381 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.402 seconds
-Domain Reload Profiling: 784ms
-	BeginReloadAssembly (148ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (176ms)
-		LoadAssemblies (204ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (56ms)
-			TypeCache.Refresh (3ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (49ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (402ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (310ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (233ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1698 unused Assets / (280.1 KB). Loaded Objects now: 2206.
-Memory consumption went from 70.3 MB to 70.0 MB.
-Total: 3.470100 ms (FindLiveObjects: 0.153700 ms CreateObjectMapping: 0.068700 ms MarkObjects: 2.975200 ms  DeleteObjects: 0.271600 ms)
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-15_comp_light.exr
+  artifactKey: Guid(632e350f6860d3d479aeae553749daf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-15_comp_light.exr using Guid(632e350f6860d3d479aeae553749daf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0303d1669b909fcd3fddd6a3c00a196') in 0.0203273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1595 unused Assets / (398.0 KB). Loaded Objects now: 2107.
-Memory consumption went from 70.2 MB to 69.8 MB.
-Total: 3.776500 ms (FindLiveObjects: 0.160000 ms CreateObjectMapping: 0.139600 ms MarkObjects: 3.115500 ms  DeleteObjects: 0.360900 ms)
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-17_comp_light.exr
+  artifactKey: Guid(302c74d1967f90e41b232e8ed9e87b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-17_comp_light.exr using Guid(302c74d1967f90e41b232e8ed9e87b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eac31f95eb71ae75ea1d067f91a457de') in 0.0151257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 2
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.419 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.424 seconds
-Domain Reload Profiling: 843ms
-	BeginReloadAssembly (163ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (192ms)
-		LoadAssemblies (218ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (62ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (54ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (424ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (330ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (241ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1599 unused Assets / (321.2 KB). Loaded Objects now: 2105.
-Memory consumption went from 69.9 MB to 69.5 MB.
-Total: 3.955600 ms (FindLiveObjects: 0.160800 ms CreateObjectMapping: 0.124300 ms MarkObjects: 3.330500 ms  DeleteObjects: 0.339000 ms)
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-4_comp_light.exr
+  artifactKey: Guid(7bf3a1f685b090446bce610df6cc0133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-4_comp_light.exr using Guid(7bf3a1f685b090446bce610df6cc0133) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9887fefe2232ed0f49618d9e74e9590e') in 0.0149454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-18_comp_dir.png
+  artifactKey: Guid(0772be38bbe4ce447b4625bd87ae4593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-18_comp_dir.png using Guid(0772be38bbe4ce447b4625bd87ae4593) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e5f52e3eb70e15987288e190f87e1d1') in 0.0148522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-1_comp_light.exr
+  artifactKey: Guid(6aab3a0ea7863344295c8e1ff4d6b851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-1_comp_light.exr using Guid(6aab3a0ea7863344295c8e1ff4d6b851) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '768aa5453add17db725941c8c1d1d9a4') in 0.0151382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-15_comp_dir.png
+  artifactKey: Guid(9caff2aadd2f399479fc339cdae366fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-15_comp_dir.png using Guid(9caff2aadd2f399479fc339cdae366fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70a7a036374f09e5e0c8fad6535dfbe3') in 0.0210342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-10_comp_light.exr
+  artifactKey: Guid(e2ceef16d100cf44cb97d5f476483e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-10_comp_light.exr using Guid(e2ceef16d100cf44cb97d5f476483e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61534c2de1ad77ebe5de519c9df9ef91') in 0.016632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-16_comp_dir.png
+  artifactKey: Guid(7b7a33b9da46aa14cb22105eebe5b231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-16_comp_dir.png using Guid(7b7a33b9da46aa14cb22105eebe5b231) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab7a0006c0df4ef9b2d33902eb382ca5') in 0.0155018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-19_comp_dir.png
+  artifactKey: Guid(70a62ce6e97bba04ebbce4ad46aa1923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-19_comp_dir.png using Guid(70a62ce6e97bba04ebbce4ad46aa1923) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eec957964b2c4d733aa0115277084174') in 0.0156513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-7_comp_light.exr
+  artifactKey: Guid(942771707b4e8b94a8ee4169f2b9b46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-7_comp_light.exr using Guid(942771707b4e8b94a8ee4169f2b9b46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2069f1d4cfd2518be1ab570ecae9ee32') in 0.0145749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-18_comp_light.exr
+  artifactKey: Guid(63d37b94fbc2ce644a04b03185bbf01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-18_comp_light.exr using Guid(63d37b94fbc2ce644a04b03185bbf01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '759383c1bbee0b05e2ad0c68e5d3a6ae') in 0.0142779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-9_comp_light.exr
+  artifactKey: Guid(5e3687fba9adea64888218f608e95f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-9_comp_light.exr using Guid(5e3687fba9adea64888218f608e95f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3066a7671a4cb34a1b07099cb510d99') in 0.0136361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-17_comp_dir.png
+  artifactKey: Guid(d68fc369b766fe94da1811da46e44da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-17_comp_dir.png using Guid(d68fc369b766fe94da1811da46e44da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53ad791f7b0971ef14bc55969592526a') in 0.0152422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/LightingData.asset
+  artifactKey: Guid(fcdc10f1e44e61f4a80a8c1bf12c35e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/LightingData.asset using Guid(fcdc10f1e44e61f4a80a8c1bf12c35e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '410017a298c976fa2ab109d6aac9310c') in 0.0430582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-1_comp_dir.png
+  artifactKey: Guid(bc73af885e37d474e98a5a5512910555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-1_comp_dir.png using Guid(bc73af885e37d474e98a5a5512910555) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acb16859a59307f2e6b9b9995e1bfe55') in 0.0150088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-2_comp_light.exr
+  artifactKey: Guid(80912e918a989014382d9cbf7243bcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-2_comp_light.exr using Guid(80912e918a989014382d9cbf7243bcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '594be8075ade413a8a58d8d2bf08ee0f') in 0.0166804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-6_comp_light.exr
+  artifactKey: Guid(951deea28264dd94785ba80045088f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-6_comp_light.exr using Guid(951deea28264dd94785ba80045088f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '807d98faf6b170d7f375ee8f75c0efe9') in 0.0158834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-19_comp_light.exr
+  artifactKey: Guid(65a253bb54ba5a241af62eaf799ceb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-19_comp_light.exr using Guid(65a253bb54ba5a241af62eaf799ceb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73716f78b419f9e02610cdfb6faeb30d') in 0.0145656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-7_comp_dir.png
+  artifactKey: Guid(84f384360dc88c449ad33dc35bd2efd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-7_comp_dir.png using Guid(84f384360dc88c449ad33dc35bd2efd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c24dce33b8e4cde4001397dad495c1eb') in 0.0139314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Characters/GuardMaterial.mat
+  artifactKey: Guid(f95cb83adbc6a1a49ae70f30c6496e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Characters/GuardMaterial.mat using Guid(f95cb83adbc6a1a49ae70f30c6496e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22a9049bee860ef55d06f0b4dc5f1b75') in 0.0393541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UnityEduTeam/Assets/Models/MarketEnvironment.FBX
+  artifactKey: Guid(ae23c9eafd0c4d84690e5f3bddaf54e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Models/MarketEnvironment.FBX using Guid(ae23c9eafd0c4d84690e5f3bddaf54e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf4604c0e0f6b2996f2ea66e6342dccc') in 0.5831871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 279
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-5_comp_light.exr
+  artifactKey: Guid(367290bccdb178940b2c9730ae5c486f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-5_comp_light.exr using Guid(367290bccdb178940b2c9730ae5c486f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '874034cb400c8595614762b7be420016') in 0.0142723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-0_comp_dir.png
+  artifactKey: Guid(b6a46f5dac2809348a8e07879ae6c1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-0_comp_dir.png using Guid(b6a46f5dac2809348a8e07879ae6c1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95b7b18f6f923abfee2e8c29f1dacf36') in 0.0157057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-12_comp_light.exr
+  artifactKey: Guid(210736d0406fe6b4089b25c223b4b696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-12_comp_light.exr using Guid(210736d0406fe6b4089b25c223b4b696) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b172a3ba571f4aa263cd8a6b20a16f30') in 0.0133462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-14_comp_light.exr
+  artifactKey: Guid(ded8830dcd1782345a08672052b528ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-14_comp_light.exr using Guid(ded8830dcd1782345a08672052b528ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d72d19135fdef4b2f165804731c2f90') in 0.0139045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-9_comp_dir.png
+  artifactKey: Guid(d4dfb9939977bc04191fdceae286618d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-9_comp_dir.png using Guid(d4dfb9939977bc04191fdceae286618d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '000940091e7d6b8d0b1a87bc8786f3aa') in 0.0140902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-3_comp_light.exr
+  artifactKey: Guid(7cdc059d23c3bf344aabf67ddd94f8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-3_comp_light.exr using Guid(7cdc059d23c3bf344aabf67ddd94f8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '138eb1e183782ccb62afcd9e2b955d3a') in 0.0150054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-11_comp_dir.png
+  artifactKey: Guid(379cb98da7e72ff48b6fa1405ce58a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-11_comp_dir.png using Guid(379cb98da7e72ff48b6fa1405ce58a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a44da6853c15df2f9eb985ab05a3dca7') in 0.0159356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-16_comp_light.exr
+  artifactKey: Guid(5e1d36c62328ee847b663fe7d67aeb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-16_comp_light.exr using Guid(5e1d36c62328ee847b663fe7d67aeb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91d1b46ad979498288afe284ebcba7e8') in 0.0156134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UnityEduTeam/Assets/Textures/noise.png
+  artifactKey: Guid(1d764c59b81154346b47a0ee3c315b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Textures/noise.png using Guid(1d764c59b81154346b47a0ee3c315b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46ff4bd129631eb5436b76e3bccf630d') in 0.0147458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-8_comp_dir.png
+  artifactKey: Guid(5498590b55a366a48b336edef054b28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-8_comp_dir.png using Guid(5498590b55a366a48b336edef054b28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fdc2600970e2e7f8a97f4e85671ca4f') in 0.0198496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-0_comp_light.exr
+  artifactKey: Guid(70a92069aea8c2a4c9111d943b5f4577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-0_comp_light.exr using Guid(70a92069aea8c2a4c9111d943b5f4577) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd59bbc9d7234306e8cf571874ec85f5') in 0.0143575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-11_comp_light.exr
+  artifactKey: Guid(61fab88fd2c320f4b9927f1be3f8f274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-11_comp_light.exr using Guid(61fab88fd2c320f4b9927f1be3f8f274) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f02f0d14a2f11062c0f351bcaef02df') in 0.0158736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-4_comp_dir.png
+  artifactKey: Guid(a5297d08354401f408e3b5b18874291f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-4_comp_dir.png using Guid(a5297d08354401f408e3b5b18874291f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3a7a3d82fda7d236410c34dbff3fd65') in 0.0155591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-10_comp_dir.png
+  artifactKey: Guid(ea09970038da7e045a9a9c2e96ca33f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-10_comp_dir.png using Guid(ea09970038da7e045a9a9c2e96ca33f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4947458ec6d1084221e792c0c803a73d') in 0.0162327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/UnityEduTeam/Assets/Textures/Environment/Market/MarketVendingMachineGlassAlbedo.tif
+  artifactKey: Guid(6da39cb2fe8f79b40ac48cb35d42deff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Textures/Environment/Market/MarketVendingMachineGlassAlbedo.tif using Guid(6da39cb2fe8f79b40ac48cb35d42deff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42a9e74984234a1fc3b2d66914efd6d5') in 0.0134458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-3_comp_dir.png
+  artifactKey: Guid(8cf3e7240a1b1a841ba1dfb8ab8a44e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-3_comp_dir.png using Guid(8cf3e7240a1b1a841ba1dfb8ab8a44e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7054820c8c21e12743183ffc7fec1f7') in 0.0148096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-12_comp_dir.png
+  artifactKey: Guid(721802425d4d3b1469b534a7c8ea43af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-12_comp_dir.png using Guid(721802425d4d3b1469b534a7c8ea43af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49ddf444f499a6ba38060a06804b408a') in 0.0157617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-13_comp_light.exr
+  artifactKey: Guid(550c7f5a68ee0564491542329f701b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-13_comp_light.exr using Guid(550c7f5a68ee0564491542329f701b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fc124d80f2e88cfa99520835fdbf80a') in 0.0154297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-8_comp_light.exr
+  artifactKey: Guid(7c2194c88099ee644b43e09d8cadcf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-8_comp_light.exr using Guid(7c2194c88099ee644b43e09d8cadcf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fecce818a7df703e5f151667818997ac') in 0.0141045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+

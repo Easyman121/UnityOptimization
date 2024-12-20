@@ -15,7 +15,7 @@ C:/Users/User/Desktop/UnityOptimization/Maze optimization
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-65283
+51113
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,18 +59,18 @@ C:/Users/User/Desktop/UnityOptimization/Maze optimization
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10916]  Target information:
+Player connection [20576]  Target information:
 
-Player connection [10916]  * "[IP] 192.168.0.55 [Port] 0 [Flags] 2 [Guid] 177869221 [EditorId] 177869221 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [20576]  * "[IP] 192.168.0.55 [Port] 0 [Flags] 2 [Guid] 1566592950 [EditorId] 1566592950 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [10916]  * "[IP] 192.168.211.1 [Port] 0 [Flags] 2 [Guid] 177869221 [EditorId] 177869221 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [20576]  * "[IP] 192.168.211.1 [Port] 0 [Flags] 2 [Guid] 1566592950 [EditorId] 1566592950 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [10916]  * "[IP] 192.168.227.1 [Port] 0 [Flags] 2 [Guid] 177869221 [EditorId] 177869221 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [20576]  * "[IP] 192.168.227.1 [Port] 0 [Flags] 2 [Guid] 1566592950 [EditorId] 1566592950 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [10916]  * "[IP] 172.28.188.130 [Port] 0 [Flags] 2 [Guid] 177869221 [EditorId] 177869221 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [20576]  * "[IP] 172.28.188.130 [Port] 0 [Flags] 2 [Guid] 1566592950 [EditorId] 1566592950 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [10916] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [10916] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20576] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20576] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -81,7 +81,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.30f1 (62b05ba0686a)
 [Subsystems] Discovering subsystems at path F:/Programs/Unity/6000.0.30f1/Editor/Data/Resources/UnitySubsystems
@@ -97,7 +97,7 @@ Initialize mono
 Mono path[0] = 'F:/Programs/Unity/6000.0.30f1/Editor/Data/Managed'
 Mono path[1] = 'F:/Programs/Unity/6000.0.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/Programs/Unity/6000.0.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Programs/Unity/6000.0.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -105,43 +105,43 @@ Register platform support module: F:/Programs/Unity/6000.0.30f1/Editor/Data/Play
 Register platform support module: F:/Programs/Unity/6000.0.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: F:/Programs/Unity/6000.0.30f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
 Register platform support module: F:/Programs/Unity/6000.0.30f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.004315 seconds.
-- Loaded All Assemblies, in  0.342 seconds
+Registered in 0.003823 seconds.
+- Loaded All Assemblies, in  0.329 seconds
 Native extension for LinuxStandalone target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.300 seconds
-Domain Reload Profiling: 642ms
-	BeginReloadAssembly (110ms)
+- Finished resetting the current domain, in  0.294 seconds
+Domain Reload Profiling: 623ms
+	BeginReloadAssembly (114ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (145ms)
-		LoadAssemblies (110ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
+		LoadAssemblies (114ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (141ms)
-			TypeCache.Refresh (140ms)
-				TypeCache.ScanAssembly (128ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (118ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (301ms)
+	FinalizeReload (294ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (270ms)
+		SetupLoadedEditorAssemblies (262ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (49ms)
+			InitializePlatformSupportModulesInManaged (47ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (45ms)
+			BeforeProcessingInitializeOnLoad (40ms)
 			ProcessInitializeOnLoadAttributes (117ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -150,406 +150,178 @@ Domain Reload Profiling: 642ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-Symbol file data-000002387F2C6030 doesn't match image C:\Users\User\Desktop\UnityOptimization\Maze optimization\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-0000022BF9DFE220 doesn't match image C:\Users\User\Desktop\UnityOptimization\Maze optimization\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.450 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.449 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.482 seconds
-Domain Reload Profiling: 931ms
-	BeginReloadAssembly (146ms)
+- Finished resetting the current domain, in  0.446 seconds
+Domain Reload Profiling: 894ms
+	BeginReloadAssembly (147ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (33ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (42ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (225ms)
-		LoadAssemblies (216ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (218ms)
+		LoadAssemblies (219ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (93ms)
-			TypeCache.Refresh (76ms)
-				TypeCache.ScanAssembly (66ms)
+		AnalyzeDomain (82ms)
+			TypeCache.Refresh (64ms)
+				TypeCache.ScanAssembly (55ms)
 			BuildScriptInfoCaches (14ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (482ms)
+	FinalizeReload (446ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (384ms)
+		SetupLoadedEditorAssemblies (354ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (289ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1601 unused Assets / (0.5 MB). Loaded Objects now: 2105.
+Unloading 1601 unused Assets / (507.3 KB). Loaded Objects now: 2105.
 Memory consumption went from 68.8 MB to 68.3 MB.
-Total: 4.141400 ms (FindLiveObjects: 0.174000 ms CreateObjectMapping: 0.072900 ms MarkObjects: 3.458100 ms  DeleteObjects: 0.434300 ms)
+Total: 5.234500 ms (FindLiveObjects: 0.191200 ms CreateObjectMapping: 0.163500 ms MarkObjects: 4.368500 ms  DeleteObjects: 0.508800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16828.596622 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-5_comp_dir.png
-  artifactKey: Guid(43e545a84254b60429eb71e07830035b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-5_comp_dir.png using Guid(43e545a84254b60429eb71e07830035b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6862e503958bbed5104ec19bb744ca09') in 0.0803974 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/UnityEduTeam/Assets/Models/Guard.fbx
-  artifactKey: Guid(c7b68b4319c8eb841972625ac9d251a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/Models/Guard.fbx using Guid(c7b68b4319c8eb841972625ac9d251a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14763de209e9098a429ba05dde06f76c') in 0.1060177 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 155
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-2_comp_dir.png
-  artifactKey: Guid(c7cca07a6da838f479b9c3c06050c6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-2_comp_dir.png using Guid(c7cca07a6da838f479b9c3c06050c6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d572f6905e589cdb4d6705f0299804f') in 0.0162286 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-13_comp_dir.png
-  artifactKey: Guid(eb0344ecc9b7ba54fbe3451336f7aa16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-13_comp_dir.png using Guid(eb0344ecc9b7ba54fbe3451336f7aa16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0235cba84a1c202547f442caa6a0ecd') in 0.0146996 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-15_comp_light.exr
-  artifactKey: Guid(632e350f6860d3d479aeae553749daf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-15_comp_light.exr using Guid(632e350f6860d3d479aeae553749daf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0303d1669b909fcd3fddd6a3c00a196') in 0.0203273 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-17_comp_light.exr
-  artifactKey: Guid(302c74d1967f90e41b232e8ed9e87b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-17_comp_light.exr using Guid(302c74d1967f90e41b232e8ed9e87b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eac31f95eb71ae75ea1d067f91a457de') in 0.0151257 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-4_comp_light.exr
-  artifactKey: Guid(7bf3a1f685b090446bce610df6cc0133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-4_comp_light.exr using Guid(7bf3a1f685b090446bce610df6cc0133) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9887fefe2232ed0f49618d9e74e9590e') in 0.0149454 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-18_comp_dir.png
-  artifactKey: Guid(0772be38bbe4ce447b4625bd87ae4593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-18_comp_dir.png using Guid(0772be38bbe4ce447b4625bd87ae4593) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e5f52e3eb70e15987288e190f87e1d1') in 0.0148522 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-1_comp_light.exr
-  artifactKey: Guid(6aab3a0ea7863344295c8e1ff4d6b851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-1_comp_light.exr using Guid(6aab3a0ea7863344295c8e1ff4d6b851) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '768aa5453add17db725941c8c1d1d9a4') in 0.0151382 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-15_comp_dir.png
-  artifactKey: Guid(9caff2aadd2f399479fc339cdae366fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-15_comp_dir.png using Guid(9caff2aadd2f399479fc339cdae366fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70a7a036374f09e5e0c8fad6535dfbe3') in 0.0210342 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-10_comp_light.exr
-  artifactKey: Guid(e2ceef16d100cf44cb97d5f476483e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-10_comp_light.exr using Guid(e2ceef16d100cf44cb97d5f476483e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61534c2de1ad77ebe5de519c9df9ef91') in 0.016632 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-16_comp_dir.png
-  artifactKey: Guid(7b7a33b9da46aa14cb22105eebe5b231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-16_comp_dir.png using Guid(7b7a33b9da46aa14cb22105eebe5b231) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab7a0006c0df4ef9b2d33902eb382ca5') in 0.0155018 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-19_comp_dir.png
-  artifactKey: Guid(70a62ce6e97bba04ebbce4ad46aa1923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-19_comp_dir.png using Guid(70a62ce6e97bba04ebbce4ad46aa1923) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eec957964b2c4d733aa0115277084174') in 0.0156513 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-7_comp_light.exr
-  artifactKey: Guid(942771707b4e8b94a8ee4169f2b9b46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-7_comp_light.exr using Guid(942771707b4e8b94a8ee4169f2b9b46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2069f1d4cfd2518be1ab570ecae9ee32') in 0.0145749 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-18_comp_light.exr
-  artifactKey: Guid(63d37b94fbc2ce644a04b03185bbf01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-18_comp_light.exr using Guid(63d37b94fbc2ce644a04b03185bbf01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '759383c1bbee0b05e2ad0c68e5d3a6ae') in 0.0142779 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-9_comp_light.exr
-  artifactKey: Guid(5e3687fba9adea64888218f608e95f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-9_comp_light.exr using Guid(5e3687fba9adea64888218f608e95f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3066a7671a4cb34a1b07099cb510d99') in 0.0136361 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-17_comp_dir.png
-  artifactKey: Guid(d68fc369b766fe94da1811da46e44da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-17_comp_dir.png using Guid(d68fc369b766fe94da1811da46e44da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53ad791f7b0971ef14bc55969592526a') in 0.0152422 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/LightingData.asset
-  artifactKey: Guid(fcdc10f1e44e61f4a80a8c1bf12c35e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/LightingData.asset using Guid(fcdc10f1e44e61f4a80a8c1bf12c35e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '410017a298c976fa2ab109d6aac9310c') in 0.0430582 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-1_comp_dir.png
-  artifactKey: Guid(bc73af885e37d474e98a5a5512910555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-1_comp_dir.png using Guid(bc73af885e37d474e98a5a5512910555) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acb16859a59307f2e6b9b9995e1bfe55') in 0.0150088 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-2_comp_light.exr
-  artifactKey: Guid(80912e918a989014382d9cbf7243bcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-2_comp_light.exr using Guid(80912e918a989014382d9cbf7243bcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '594be8075ade413a8a58d8d2bf08ee0f') in 0.0166804 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-6_comp_light.exr
-  artifactKey: Guid(951deea28264dd94785ba80045088f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-6_comp_light.exr using Guid(951deea28264dd94785ba80045088f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '807d98faf6b170d7f375ee8f75c0efe9') in 0.0158834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-19_comp_light.exr
-  artifactKey: Guid(65a253bb54ba5a241af62eaf799ceb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-19_comp_light.exr using Guid(65a253bb54ba5a241af62eaf799ceb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73716f78b419f9e02610cdfb6faeb30d') in 0.0145656 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-7_comp_dir.png
-  artifactKey: Guid(84f384360dc88c449ad33dc35bd2efd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-7_comp_dir.png using Guid(84f384360dc88c449ad33dc35bd2efd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c24dce33b8e4cde4001397dad495c1eb') in 0.0139314 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/UnityEduTeam/Assets/Materials/Characters/GuardMaterial.mat
-  artifactKey: Guid(f95cb83adbc6a1a49ae70f30c6496e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/Materials/Characters/GuardMaterial.mat using Guid(f95cb83adbc6a1a49ae70f30c6496e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22a9049bee860ef55d06f0b4dc5f1b75') in 0.0393541 seconds
+  Time since last request: 17318.504677 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Characters/SharkmanMaterial 1.mat
+  artifactKey: Guid(00190559b42174b4c9a770579da85678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Characters/SharkmanMaterial 1.mat using Guid(00190559b42174b4c9a770579da85678) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74cf7be96b5fe59feb7929fe1a1b357e') in 0.1274425 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/UnityEduTeam/Assets/Models/MarketEnvironment.FBX
-  artifactKey: Guid(ae23c9eafd0c4d84690e5f3bddaf54e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/Models/MarketEnvironment.FBX using Guid(ae23c9eafd0c4d84690e5f3bddaf54e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf4604c0e0f6b2996f2ea66e6342dccc') in 0.5831871 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 279
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-5_comp_light.exr
-  artifactKey: Guid(367290bccdb178940b2c9730ae5c486f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-5_comp_light.exr using Guid(367290bccdb178940b2c9730ae5c486f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '874034cb400c8595614762b7be420016') in 0.0142723 seconds
+  Time since last request: 5.603813 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/Dust.mat
+  artifactKey: Guid(7b2a45a4eea505c4ab9a0def8c0518ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/Dust.mat using Guid(7b2a45a4eea505c4ab9a0def8c0518ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5053f903988fba8a6261529b20a36b89') in 0.0256989 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-0_comp_dir.png
-  artifactKey: Guid(b6a46f5dac2809348a8e07879ae6c1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-0_comp_dir.png using Guid(b6a46f5dac2809348a8e07879ae6c1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95b7b18f6f923abfee2e8c29f1dacf36') in 0.0157057 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000018 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketFishSelectable.mat
+  artifactKey: Guid(08f4e3363e393374ca0cd78cf5c5a14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketFishSelectable.mat using Guid(08f4e3363e393374ca0cd78cf5c5a14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '081749c680c58fed175ffad0d35872ba') in 0.0226012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketFruit.mat
+  artifactKey: Guid(18c2bd17f423d0749b72b7b321239244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketFruit.mat using Guid(18c2bd17f423d0749b72b7b321239244) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0cd7df24cc4ec659596588d45f86c72') in 0.0195947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketMosaicTiles.mat
+  artifactKey: Guid(99bd920f43dd23e478029c6318bf5bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketMosaicTiles.mat using Guid(99bd920f43dd23e478029c6318bf5bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9ea646d2e183c67835659280e07623a') in 0.0189984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-12_comp_light.exr
-  artifactKey: Guid(210736d0406fe6b4089b25c223b4b696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-12_comp_light.exr using Guid(210736d0406fe6b4089b25c223b4b696) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b172a3ba571f4aa263cd8a6b20a16f30') in 0.0133462 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-14_comp_light.exr
-  artifactKey: Guid(ded8830dcd1782345a08672052b528ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-14_comp_light.exr using Guid(ded8830dcd1782345a08672052b528ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d72d19135fdef4b2f165804731c2f90') in 0.0139045 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-9_comp_dir.png
-  artifactKey: Guid(d4dfb9939977bc04191fdceae286618d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-9_comp_dir.png using Guid(d4dfb9939977bc04191fdceae286618d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '000940091e7d6b8d0b1a87bc8786f3aa') in 0.0140902 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-3_comp_light.exr
-  artifactKey: Guid(7cdc059d23c3bf344aabf67ddd94f8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-3_comp_light.exr using Guid(7cdc059d23c3bf344aabf67ddd94f8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '138eb1e183782ccb62afcd9e2b955d3a') in 0.0150054 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-11_comp_dir.png
-  artifactKey: Guid(379cb98da7e72ff48b6fa1405ce58a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-11_comp_dir.png using Guid(379cb98da7e72ff48b6fa1405ce58a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a44da6853c15df2f9eb985ab05a3dca7') in 0.0159356 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-16_comp_light.exr
-  artifactKey: Guid(5e1d36c62328ee847b663fe7d67aeb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-16_comp_light.exr using Guid(5e1d36c62328ee847b663fe7d67aeb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91d1b46ad979498288afe284ebcba7e8') in 0.0156134 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/UnityEduTeam/Assets/Textures/noise.png
-  artifactKey: Guid(1d764c59b81154346b47a0ee3c315b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/Textures/noise.png using Guid(1d764c59b81154346b47a0ee3c315b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46ff4bd129631eb5436b76e3bccf630d') in 0.0147458 seconds
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketOldTech.mat
+  artifactKey: Guid(0388f2d5fd84c014dbb18d851a95c1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketOldTech.mat using Guid(0388f2d5fd84c014dbb18d851a95c1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8520796f140dd524488bf8437c3bab79') in 0.0159534 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-8_comp_dir.png
-  artifactKey: Guid(5498590b55a366a48b336edef054b28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-8_comp_dir.png using Guid(5498590b55a366a48b336edef054b28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fdc2600970e2e7f8a97f4e85671ca4f') in 0.0198496 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketCrates.mat
+  artifactKey: Guid(6811dc329162c624690784272c6a74fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketCrates.mat using Guid(6811dc329162c624690784272c6a74fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e53ea327db9f552262a738164bcd559c') in 0.0225084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-0_comp_light.exr
-  artifactKey: Guid(70a92069aea8c2a4c9111d943b5f4577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-0_comp_light.exr using Guid(70a92069aea8c2a4c9111d943b5f4577) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd59bbc9d7234306e8cf571874ec85f5') in 0.0143575 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-11_comp_light.exr
-  artifactKey: Guid(61fab88fd2c320f4b9927f1be3f8f274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-11_comp_light.exr using Guid(61fab88fd2c320f4b9927f1be3f8f274) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f02f0d14a2f11062c0f351bcaef02df') in 0.0158736 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-4_comp_dir.png
-  artifactKey: Guid(a5297d08354401f408e3b5b18874291f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-4_comp_dir.png using Guid(a5297d08354401f408e3b5b18874291f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3a7a3d82fda7d236410c34dbff3fd65') in 0.0155591 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-10_comp_dir.png
-  artifactKey: Guid(ea09970038da7e045a9a9c2e96ca33f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-10_comp_dir.png using Guid(ea09970038da7e045a9a9c2e96ca33f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4947458ec6d1084221e792c0c803a73d') in 0.0162327 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/UnityEduTeam/Assets/Textures/Environment/Market/MarketVendingMachineGlassAlbedo.tif
-  artifactKey: Guid(6da39cb2fe8f79b40ac48cb35d42deff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/Textures/Environment/Market/MarketVendingMachineGlassAlbedo.tif using Guid(6da39cb2fe8f79b40ac48cb35d42deff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42a9e74984234a1fc3b2d66914efd6d5') in 0.0134458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-3_comp_dir.png
-  artifactKey: Guid(8cf3e7240a1b1a841ba1dfb8ab8a44e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-3_comp_dir.png using Guid(8cf3e7240a1b1a841ba1dfb8ab8a44e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7054820c8c21e12743183ffc7fec1f7') in 0.0148096 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-12_comp_dir.png
-  artifactKey: Guid(721802425d4d3b1469b534a7c8ea43af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-12_comp_dir.png using Guid(721802425d4d3b1469b534a7c8ea43af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49ddf444f499a6ba38060a06804b408a') in 0.0157617 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-13_comp_light.exr
-  artifactKey: Guid(550c7f5a68ee0564491542329f701b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-13_comp_light.exr using Guid(550c7f5a68ee0564491542329f701b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fc124d80f2e88cfa99520835fdbf80a') in 0.0154297 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketPriceTags.mat
+  artifactKey: Guid(8c9652377256a5d41bde897da527a3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketPriceTags.mat using Guid(8c9652377256a5d41bde897da527a3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '941f8dbab4cf8e11a5cfb1f1eddca4c4') in 0.0169704 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-8_comp_light.exr
-  artifactKey: Guid(7c2194c88099ee644b43e09d8cadcf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-8_comp_light.exr using Guid(7c2194c88099ee644b43e09d8cadcf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fecce818a7df703e5f151667818997ac') in 0.0141045 seconds
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketProsthetics.mat
+  artifactKey: Guid(542062432d660d64f87455adddbf8343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketProsthetics.mat using Guid(542062432d660d64f87455adddbf8343) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32c21c11fcb5a0825aa7054f2e596776') in 0.0197664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketChairs.mat
+  artifactKey: Guid(3f196f5aa004d894c81b14bfba41ac27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketChairs.mat using Guid(3f196f5aa004d894c81b14bfba41ac27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c07364c3df24bd15525178229e34e98') in 0.016805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketSmallTable.mat
+  artifactKey: Guid(7d219517a6224674483d884585bad268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketSmallTable.mat using Guid(7d219517a6224674483d884585bad268) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62dc132bccf10245a25abca4493006a3') in 0.0188361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketSlerp.mat
+  artifactKey: Guid(364a48ba02c665f4688dacc733734f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketSlerp.mat using Guid(364a48ba02c665f4688dacc733734f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b68f6d8df7e08bab322435191e1cc4e') in 0.0208427 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketShadeCloth.mat
+  artifactKey: Guid(3ea3a2c6801aae54396d0e9359371fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketShadeCloth.mat using Guid(3ea3a2c6801aae54396d0e9359371fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3d60327b852e278d9bdb1b58fa11e0d') in 0.0177802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketFloorMetal.mat
+  artifactKey: Guid(d5c39045660bc764a8ef604888042b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketFloorMetal.mat using Guid(d5c39045660bc764a8ef604888042b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0394c012ee6879f2dc53fde53be09dd6') in 0.0201396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketSecurityDoor.mat
+  artifactKey: Guid(21f4fccb919166745b81be58b6c766a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketSecurityDoor.mat using Guid(21f4fccb919166745b81be58b6c766a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fd3196a5c66688cda78eb402588ef42') in 0.0149456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

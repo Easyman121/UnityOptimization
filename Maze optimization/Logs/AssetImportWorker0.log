@@ -15,7 +15,7 @@ C:/Users/User/Desktop/UnityOptimization/Maze optimization
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65283
+51113
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,18 +59,18 @@ C:/Users/User/Desktop/UnityOptimization/Maze optimization
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4644]  Target information:
+Player connection [18472]  Target information:
 
-Player connection [4644]  * "[IP] 192.168.0.55 [Port] 0 [Flags] 2 [Guid] 3532394881 [EditorId] 3532394881 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18472]  * "[IP] 192.168.0.55 [Port] 0 [Flags] 2 [Guid] 3750007895 [EditorId] 3750007895 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [4644]  * "[IP] 192.168.211.1 [Port] 0 [Flags] 2 [Guid] 3532394881 [EditorId] 3532394881 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18472]  * "[IP] 192.168.211.1 [Port] 0 [Flags] 2 [Guid] 3750007895 [EditorId] 3750007895 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [4644]  * "[IP] 192.168.227.1 [Port] 0 [Flags] 2 [Guid] 3532394881 [EditorId] 3532394881 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18472]  * "[IP] 192.168.227.1 [Port] 0 [Flags] 2 [Guid] 3750007895 [EditorId] 3750007895 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [4644]  * "[IP] 172.28.188.130 [Port] 0 [Flags] 2 [Guid] 3532394881 [EditorId] 3532394881 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18472]  * "[IP] 172.28.188.130 [Port] 0 [Flags] 2 [Guid] 3750007895 [EditorId] 3750007895 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [4644] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [4644] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18472] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18472] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -81,7 +81,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.30f1 (62b05ba0686a)
 [Subsystems] Discovering subsystems at path F:/Programs/Unity/6000.0.30f1/Editor/Data/Resources/UnitySubsystems
@@ -97,7 +97,7 @@ Initialize mono
 Mono path[0] = 'F:/Programs/Unity/6000.0.30f1/Editor/Data/Managed'
 Mono path[1] = 'F:/Programs/Unity/6000.0.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/Programs/Unity/6000.0.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Programs/Unity/6000.0.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -105,43 +105,43 @@ Register platform support module: F:/Programs/Unity/6000.0.30f1/Editor/Data/Play
 Register platform support module: F:/Programs/Unity/6000.0.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: F:/Programs/Unity/6000.0.30f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
 Register platform support module: F:/Programs/Unity/6000.0.30f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.004359 seconds.
-- Loaded All Assemblies, in  0.341 seconds
+Registered in 0.003639 seconds.
+- Loaded All Assemblies, in  0.327 seconds
 Native extension for LinuxStandalone target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.301 seconds
-Domain Reload Profiling: 642ms
-	BeginReloadAssembly (110ms)
+- Finished resetting the current domain, in  0.294 seconds
+Domain Reload Profiling: 622ms
+	BeginReloadAssembly (112ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
+	RebuildCommonClasses (33ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (144ms)
-		LoadAssemblies (110ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (133ms)
+		LoadAssemblies (111ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (140ms)
-			TypeCache.Refresh (138ms)
-				TypeCache.ScanAssembly (127ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (116ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (302ms)
+	FinalizeReload (295ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (270ms)
+		SetupLoadedEditorAssemblies (264ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (49ms)
+			InitializePlatformSupportModulesInManaged (45ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (44ms)
-			ProcessInitializeOnLoadAttributes (120ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (117ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -150,94 +150,226 @@ Domain Reload Profiling: 642ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-Symbol file data-0000018B7C660040 doesn't match image C:\Users\User\Desktop\UnityOptimization\Maze optimization\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-0000020F8CD27F20 doesn't match image C:\Users\User\Desktop\UnityOptimization\Maze optimization\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.450 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.440 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.479 seconds
-Domain Reload Profiling: 928ms
-	BeginReloadAssembly (149ms)
+- Finished resetting the current domain, in  0.459 seconds
+Domain Reload Profiling: 898ms
+	BeginReloadAssembly (144ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (32ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (43ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (226ms)
-		LoadAssemblies (222ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (213ms)
+		LoadAssemblies (213ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (91ms)
-			TypeCache.Refresh (73ms)
-				TypeCache.ScanAssembly (64ms)
-			BuildScriptInfoCaches (14ms)
+		AnalyzeDomain (82ms)
+			TypeCache.Refresh (63ms)
+				TypeCache.ScanAssembly (54ms)
+			BuildScriptInfoCaches (15ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (479ms)
+	FinalizeReload (459ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (383ms)
+		SetupLoadedEditorAssemblies (368ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
+			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (289ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (282ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 1601 unused Assets / (0.6 MB). Loaded Objects now: 2105.
 Memory consumption went from 68.8 MB to 68.2 MB.
-Total: 4.331300 ms (FindLiveObjects: 0.161900 ms CreateObjectMapping: 0.070400 ms MarkObjects: 3.554500 ms  DeleteObjects: 0.542100 ms)
+Total: 4.504800 ms (FindLiveObjects: 0.163600 ms CreateObjectMapping: 0.145500 ms MarkObjects: 3.689600 ms  DeleteObjects: 0.503700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16828.596582 seconds.
-  path: Assets/UnityEduTeam/Assets/Textures/Characters/GuardAlbedo.png
-  artifactKey: Guid(d636c4f5a57f26746a6b131f4ae5c090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/Textures/Characters/GuardAlbedo.png using Guid(d636c4f5a57f26746a6b131f4ae5c090) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fcf3292691244d00fca40504f765b98') in 0.0825349 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 17318.516822 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Characters/SharkmanMaterial.mat
+  artifactKey: Guid(d788c05ebea28de4db00723fccb2e638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Characters/SharkmanMaterial.mat using Guid(d788c05ebea28de4db00723fccb2e638) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06d9617597776f71e2ec187bdf710c80') in 0.117341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-6_comp_dir.png
-  artifactKey: Guid(b5672e71798ac7e418a22c7177af742d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-6_comp_dir.png using Guid(b5672e71798ac7e418a22c7177af742d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c6eff68a33293fa4b7ca0ff451d07b2') in 0.0140319 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 5.601188 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/BlackUnlit.mat
+  artifactKey: Guid(18b73e95c08e7624d88d2200187d9cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/BlackUnlit.mat using Guid(18b73e95c08e7624d88d2200187d9cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67a8d37a2a23b4a71c25b840c18177c7') in 0.0240396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/UnityEduTeam/Assets/Materials/Market/Glass.mat
-  artifactKey: Guid(cb7d12c46517df84eb12587362b496a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/Materials/Market/Glass.mat using Guid(cb7d12c46517df84eb12587362b496a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21f86c1bfdb5e4b9de5972b8f1457216') in 0.0691899 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000035 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketBollard.mat
+  artifactKey: Guid(ca130c123aa674f48bd5de8d3f8784b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketBollard.mat using Guid(ca130c123aa674f48bd5de8d3f8784b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f25600de73fd8f064b029950e0a15b82') in 0.0269817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-14_comp_dir.png
-  artifactKey: Guid(2affc20e0d6eb0b438198308dfa9b5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/_Scenes/Maze/Lightmap-14_comp_dir.png using Guid(2affc20e0d6eb0b438198308dfa9b5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e81cf18b2e8af7d26ef1686561333eb') in 0.0149919 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000014 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketFloorTileSand.mat
+  artifactKey: Guid(3a48947a76978074795eb630980e7e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketFloorTileSand.mat using Guid(3a48947a76978074795eb630980e7e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3cf9ab3949893f40b42e892c5b88182') in 0.025458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Characters/FruitVendor.mat
+  artifactKey: Guid(bf2b4aaaf633ea1449a183726b6fa2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Characters/FruitVendor.mat using Guid(bf2b4aaaf633ea1449a183726b6fa2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '180cd14e157e449ae6b944cc53ecc1dc') in 0.0222632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketAircon.mat
+  artifactKey: Guid(895e35e06e2d8fc448bb48e11a72ffb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketAircon.mat using Guid(895e35e06e2d8fc448bb48e11a72ffb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ceb21107aa0dc54dacace725947cb88') in 0.0167628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketFish.mat
+  artifactKey: Guid(329c7db3030cc1d418a9f416eaed765f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketFish.mat using Guid(329c7db3030cc1d418a9f416eaed765f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d4ad4a1ea2a27ed84befbb958017701') in 0.017299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketSpiceBags.mat
+  artifactKey: Guid(4ec2d68a2ff08f94e982603197685a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketSpiceBags.mat using Guid(4ec2d68a2ff08f94e982603197685a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4db250f1a4fb2189184035dbd8fd70fb') in 0.0195551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketSigns.mat
+  artifactKey: Guid(71e4cc976fb954d489e47c27ba9c6950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketSigns.mat using Guid(71e4cc976fb954d489e47c27ba9c6950) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '979ead8897b6298e1b3cabbaf71e560d') in 0.0179817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketDoorway.mat
+  artifactKey: Guid(1fa0545d742cf194684d26312066441d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketDoorway.mat using Guid(1fa0545d742cf194684d26312066441d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53e02c7ec293bfc470867ecb362d3e32') in 0.0200929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketPipes.mat
+  artifactKey: Guid(cf64d91bf9d60fa46803c50a585aff08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketPipes.mat using Guid(cf64d91bf9d60fa46803c50a585aff08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51007e6cac1f2df873a6e8f6352d7c0b') in 0.0245506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketDustBin.mat
+  artifactKey: Guid(7cf13ff2ec6ecf6458f22b58c36f2e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketDustBin.mat using Guid(7cf13ff2ec6ecf6458f22b58c36f2e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4dee43bd93171beacc4431bf1afd2642') in 0.0179259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketPots.mat
+  artifactKey: Guid(baa9de290ac47c74b8ce1db516ff702e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketPots.mat using Guid(baa9de290ac47c74b8ce1db516ff702e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a356ac92f10a5e0c200a9c82a0943ffe') in 0.0171908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/UnityEduTeam/Assets/Models/ExportedModels/MarketEnvironment 1.fbx
-  artifactKey: Guid(a54bae321008b08489f7553044d6ccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityEduTeam/Assets/Models/ExportedModels/MarketEnvironment 1.fbx using Guid(a54bae321008b08489f7553044d6ccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7682a41ab9b52b24740a0b86fdb44104') in 1.7067369 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2780
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketFoodTrays.mat
+  artifactKey: Guid(61678ebbb8fa54046afc6d3f0232531c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketFoodTrays.mat using Guid(61678ebbb8fa54046afc6d3f0232531c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35ff47f7bb8f6ec2cb9bc9c337bfb485') in 0.016112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
+========================================================================
+Received Import Request.
+  Time since last request: 7.944725 seconds.
+  path: Assets/UnityEduTeam/Assets/Textures/ToonRampTint4.png
+  artifactKey: Guid(79be2c25a12e980469d7d935c889c16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Textures/ToonRampTint4.png using Guid(79be2c25a12e980469d7d935c889c16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36a420cdcfd1c68dbd735cecb9c74f19') in 0.0312223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.353004 seconds.
+  path: Assets/UnityEduTeam/Assets/Textures/ToonRampTint3.png
+  artifactKey: Guid(3e2ff6720234f5447894e77691ec2026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Textures/ToonRampTint3.png using Guid(3e2ff6720234f5447894e77691ec2026) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc8f64bd35ac9dadff16b04cc2f8da81') in 0.0222901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.389448 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketVendingMachine.mat
+  artifactKey: Guid(e601b63d46663824d853a55aa1d71001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketVendingMachine.mat using Guid(e601b63d46663824d853a55aa1d71001) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb45185eafa9f86deb7b601340796820') in 0.0190139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketWallStone.mat
+  artifactKey: Guid(841101597fac029489d23f6adc912343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketWallStone.mat using Guid(841101597fac029489d23f6adc912343) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3910c38d3b16bef20ced06f131b4d43') in 0.0158229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Characters/Player.mat
+  artifactKey: Guid(38bcda417e203744d89feb1e91554572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Characters/Player.mat using Guid(38bcda417e203744d89feb1e91554572) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0783b577fb1b5f7054a1428aadb5124a') in 0.0191643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/ParticleSmokeWhite.mat
+  artifactKey: Guid(c50d77affeb31e14c9c062c282f13fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/ParticleSmokeWhite.mat using Guid(c50d77affeb31e14c9c062c282f13fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e51642b7cfd13eac5beef9e6ffa51ad4') in 0.018857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UnityEduTeam/Assets/Materials/Market/MarketWallMetal.mat
+  artifactKey: Guid(e59530a749010fc4fb744508277ac143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityEduTeam/Assets/Materials/Market/MarketWallMetal.mat using Guid(e59530a749010fc4fb744508277ac143) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff3b6ce81bf85a3c30c072e7b2e8e45f') in 0.016108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
